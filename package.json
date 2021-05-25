@@ -1,15 +1,27 @@
 {
   "name": "typescript01",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@types/jquery": "^3.5.5",
-    "jquery": "^3.6.0"
-  }
+    "jquery": "^3.6.0",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zinthru/improved-journey.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Zinthru/improved-journey/issues"
+  },
+  "homepage": "https://github.com/Zinthru/improved-journey#readme",
+  "description": ""
 }
